@@ -15,6 +15,7 @@ $(document).ready(function() {
     Andreah('3','6','9');
     Andreah('4','5','6');
     Andreah('3','5','7');
+	Andreah('7','8','9');
 
     function Yo(n1,n2,n3) {
       if($('#s'+n1+'s').hasClass('equis') && $('#s'+n2+'s').hasClass('equis') && $('#s'+n3+'s').hasClass('equis')) {
@@ -28,6 +29,7 @@ $(document).ready(function() {
     Yo('3','6','9');
     Yo('4','5','6');
     Yo('3','5','7');
+	Yo('7','8','9');
 
   });
 
