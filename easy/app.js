@@ -1,4 +1,4 @@
-var main = function () {
+$(document).ready(function() {
 
 //Victoria o derrota
   $('.game').mouseover(function(){
@@ -120,5 +120,5 @@ var main = function () {
   $(document).on('click','.finish',function(){
       location.reload();
   });
-};
-$(document).ready(main);
+});
+
